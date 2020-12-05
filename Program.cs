@@ -6,7 +6,7 @@ namespace advent_of_code_2020
     {
         static void Main(string[] args)
         {
-            Day3();
+            Day4();
         }
 
         static void Day1()
@@ -33,6 +33,14 @@ namespace advent_of_code_2020
             Console.WriteLine(day3Result1);
             var day3Result2 = day3.TestSlopes();
             Console.WriteLine(day3Result2);
+        }
+
+        static void Day4()
+        {
+            var day4 = new Day4();
+            var part2Result = day4.CountValid();
+            Console.WriteLine(part2Result);
+            // Part 1 result = 226
         }
     }
 }
