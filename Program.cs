@@ -6,7 +6,7 @@ namespace advent_of_code_2020
     {
         static void Main(string[] args)
         {
-            Day4();
+            Day5();
         }
 
         static void Day1()
@@ -41,6 +41,16 @@ namespace advent_of_code_2020
             var part2Result = day4.CountValid();
             Console.WriteLine(part2Result);
             // Part 1 result = 226
+            // Part 2 result = 160
+        }
+
+        static void Day5()
+        {
+            var day5 = new Day5();
+            var day5Part1 = day5.FindHighestSeatId();
+            Console.WriteLine(day5Part1);
+            var day5Part2 = day5.FindMySeat();
+            Console.WriteLine(day5Part2);
         }
     }
 }
